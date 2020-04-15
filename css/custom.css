@@ -1,0 +1,24 @@
+.chevron-wrapper {display:none}
+.site-navbar .navbar-brand {font-size: 1.5rem;}
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+    }
+.google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+ #map {
+        height: 600px;
+        width: 100%;
+       }
+.yellowbox {
+    background-color: #ffc904;
+	padding: 15px;
+	border-radius: 0px;
+}
