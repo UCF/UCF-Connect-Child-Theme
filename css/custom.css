@@ -23,12 +23,13 @@
 	border-radius: 0px;
 }
 .btn-outline-inverse {
-    color:black;
-    background-color:white
+    color:black !important;
+    background-color:white !important;
 }
 
 .site-navbar .navbar-brand {
     border:1px solid red;
+    font: 2rem;
 }
 
 
