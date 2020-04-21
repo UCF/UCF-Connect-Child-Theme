@@ -26,10 +26,13 @@
     color:black !important;
     background-color:white !important;
 }
+.btn-outline-inverse :hover {
+    color:black !important;
+    background-color:#fc0 !important;
+}
 
 .site-navbar .navbar-brand {
-    border:1px solid red;
-    font: 2rem;
+    font-size: 2rem;
 }
 
 
