@@ -1,7 +1,7 @@
 <?php
-define( 'DC_THEME_DIR', trailingslashit( get_stylesheet_directory() ) );
+define( 'UCN_THEME_DIR', trailingslashit( get_stylesheet_directory() ) );
 
-include_once DC_THEME_DIR . 'includes/header-functions.php';
+include_once UCN_THEME_DIR . 'includes/header-functions.php';
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function my_theme_enqueue_styles() {
