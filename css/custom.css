@@ -22,3 +22,53 @@
 	padding: 15px;
 	border-radius: 0px;
 }
+.btn-outline-inverse {
+    color:black;
+    background-color:white
+}
+
+.mobileShow { display: none; }
+.tabletShow { display:none }
+.desktopShow {display:inline }
+
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+        .mobileShow {
+            display: inline;
+        }
+        .desktopShow {
+            display:none;
+        }
+  }
+
+  @media only screen
+    and (min-device-width : 992px)
+    and (max-device-width: 768px)  {
+        .tabletShow {
+            display:inline;
+        }
+        .desktopShow {
+            display:none;
+        }
+  }
+  @media only screen
+    and (min-device-width : 1024px)
+    and (max-device-width: 1366px)  {
+        .tabletShow {
+            display:inline;
+        }
+        .desktopShow {
+            display:none;
+        }
+  }
+  @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width: 1024px)  {
+        .tabletShow {
+            display:inline !important;
+        }
+        .desktopShow {
+            display:none;
+        }
+  }
