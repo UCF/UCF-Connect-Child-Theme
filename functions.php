@@ -1,4 +1,7 @@
 <?php
+
+include_once 'includes/wp-bs-navwalker.php';
+
 define( 'UCN_THEME_DIR', trailingslashit( get_stylesheet_directory() ) );
 
 include_once UCN_THEME_DIR . 'includes/header-functions.php';
