@@ -3,6 +3,9 @@
 .dropdown-toggle {
     background-color:none !important;
 }
+.navbar-inverse .navbar-nav .active>.nav-link, .navbar-inverse .navbar-nav .nav-link.active {
+    background-color:none !important;
+}
 .google-maps {
         position: relative;
         padding-bottom: 75%; 
