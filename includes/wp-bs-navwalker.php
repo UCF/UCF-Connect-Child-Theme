@@ -86,7 +86,7 @@ if ( !class_exists( 'bs4Navwalker' ) ) {
 			}
 
 			if (in_array('current-menu-item', $classes)) {
-				$class_names .= ' active';
+				$class_names .= ' active XXX';
 			}
 			//
 
@@ -137,7 +137,7 @@ if ( !class_exists( 'bs4Navwalker' ) ) {
 			}
 
 			if (in_array('current-menu-item', $item->classes)) {
-				$atts['class'] .= ' active';
+				$atts['class'] .= ' active YYY';
 			}
 			// print_r($item);
 			//
