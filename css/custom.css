@@ -1,5 +1,8 @@
 .chevron-wrapper {display:none}
 .site-navbar .navbar-brand {font-size: 1.5rem;}
+.nav-link .dropdown-toggle .active {
+    background-color:none;
+}
 .google-maps {
         position: relative;
         padding-bottom: 75%; 
