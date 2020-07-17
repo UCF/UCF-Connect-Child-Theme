@@ -1,17 +1,5 @@
 .chevron-wrapper {display:none}
 .site-navbar .navbar-brand {font-size: 1.5rem;}
-.dropdown-toggle {
-    background-color:none !important;
-}
-.navbar-inverse .navbar-nav .active>.nav-link, .navbar-inverse .navbar-nav .nav-link.active, .navbar-inverse .navbar-nav .nav-link.open, .navbar-inverse .navbar-nav .nav-link:active, .navbar-inverse .navbar-nav .nav-link:hover, .navbar-inverse .navbar-nav .open>.nav-link, .navbar-inverse .navbar-nav .show>.nav-link, .navbar-inverse .navbar-nav .twitter-typeahead .tt-open>.nav-link, .twitter-typeahead .navbar-inverse .navbar-nav .tt-open>.nav-link {
-    background-color:none !important;
-}
-
-ul li a {background-color:none !important}
-#header-menu ul li a {background-color:none !important}
-#menu-headermainmenu li a {background-color:none !important}
-#menu-headermainmenu a {background-color:none !important}
-
 .google-maps {
         position: relative;
         padding-bottom: 75%; 
