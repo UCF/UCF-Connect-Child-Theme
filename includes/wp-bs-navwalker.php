@@ -223,4 +223,5 @@ if ( !class_exists( 'bs4Navwalker' ) ) {
 			}
 		}
 	}
+
 }

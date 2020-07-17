@@ -1,15 +1,5 @@
 <?php
 
-//include_once 'includes/utilities.php';
-//include_once 'includes/config.php';
-//include_once 'includes/meta.php';
-include_once 'includes/wp-bs-navwalker.php';
-
-//include_once 'includes/header-functions.php';
-//include_once 'includes/person-functions.php';
-//include_once 'includes/degree-functions.php';
-
-
 define( 'UCN_THEME_DIR', trailingslashit( get_stylesheet_directory() ) );
 
 include_once UCN_THEME_DIR . 'includes/header-functions.php';
