@@ -1,7 +1,7 @@
 .chevron-wrapper {display:none}
 .site-navbar .navbar-brand {font-size: 1.5rem;}
-.nav-link .dropdown-toggle .active {
-    background-color:none;
+.dropdown-toggle {
+    background-color:none !important;
 }
 .google-maps {
         position: relative;
