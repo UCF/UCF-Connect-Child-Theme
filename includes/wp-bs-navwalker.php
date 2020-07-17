@@ -128,7 +128,7 @@ if ( !class_exists( 'bs4Navwalker' ) ) {
 			}
 
 			if ($depth === 0 && in_array('menu-item-has-children', $classes)) {
-				$atts['class']       .= ' dropdown-toggle';
+				$atts['class']       .= ' dropdown-toggle AAA';
 				$atts['data-toggle']  = 'dropdown';
 			}
 
