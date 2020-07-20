@@ -1,3 +1,9 @@
+.btn-outline-inverse.active:not(:disabled):not(.disabled), .btn-outline-inverse.focus:not(:disabled):not(.disabled), .btn-outline-inverse:active:not(:disabled):not(.disabled), .btn-outline-inverse:focus:not(:disabled):not(.disabled), .btn-outline-inverse:hover:not(:disabled):not(.disabled) {
+    background-color: #fc0;
+    border-color: #fc0;
+    color: #000;
+}
+
 .chevron-wrapper {display:none}
 .site-navbar .navbar-brand {font-size: 1.5rem;}
 .google-maps {
