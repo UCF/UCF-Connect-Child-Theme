@@ -13,5 +13,10 @@ function my_theme_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
+	wp_enqueue_style( 'child-style',
+        get_stylesheet_directory_uri() . '/css/timeline.css?'.rand(111,9999),
+        array( $parent_style ),
+        wp_get_theme()->get('Version')
+    );
 }
 ?>
