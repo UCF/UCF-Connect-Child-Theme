@@ -28,7 +28,7 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 
-    wp_enqueue_script( 'test-this-file', get_template_directory_uri() . '/css/royalslider/test-this-file.js');
+    wp_enqueue_script( 'royalslider-min-js', get_template_directory_uri() . '/css/royalslider/jquery.royalslider.min.js');
 }
 
 //function my_theme_enqueue_scripts() {
