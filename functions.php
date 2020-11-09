@@ -31,7 +31,7 @@ function my_theme_enqueue_styles() {
 
 function my_theme_enqueue_scripts() {
     $parent_style = 'Colleges-Theme-style';
-    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js')
+    wp_enqueue_script( $parent_style, get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js');
 }
 
 ?>
