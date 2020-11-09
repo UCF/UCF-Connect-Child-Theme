@@ -2,7 +2,7 @@
 
 define( 'UCN_THEME_DIR', trailingslashit( get_stylesheet_directory() ) );
 
-add_action( 'wp_enqueue_styles', 'my_theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 //add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_scripts' );
 function my_theme_enqueue_styles() {
  
