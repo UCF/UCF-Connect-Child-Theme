@@ -27,4 +27,10 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+
+function my_theme_enqueue_scripts() {
+    $parent_style = 'Colleges-Theme-style';
+    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js')
+}
+
 ?>
