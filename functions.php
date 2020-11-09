@@ -2,7 +2,7 @@
 
 define( 'UCN_THEME_DIR', trailingslashit( get_stylesheet_directory() ) );
 
-add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+add_action( 'my_theme_enqueue_styles', 'my_theme_enqueue_styles' );
 //add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_scripts' );
 function my_theme_enqueue_styles() {
  
@@ -28,9 +28,7 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 
-    wp_enqueue_script( 'royalslider-min-js', 
-        get_template_directory_uri() . '/css/royalslider/jquery.royalslider.min.js?'.rand(111,999));
-);
+    wp_enqueue_script( 'royalslider-min-js', get_template_directory_uri() . '/css/royalslider/jquery.royalslider.min.js');
 }
 
 //function my_theme_enqueue_scripts() {
