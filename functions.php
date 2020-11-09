@@ -13,5 +13,11 @@ function my_theme_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
+
+    wp_enqueue_style( 'royalslider',
+    get_stylesheet_directory_uri() . '/css/royalslider/skins/default/rs-default.css?'.rand(111,9999),
+    array( $parent_style ),
+    wp_get_theme()->get('Version')
+);
 }
 ?>
