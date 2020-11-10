@@ -31,7 +31,10 @@ function my_theme_enqueue_styles() {
     //https://github.com/UCF/UCF-Libraries-Theme/blob/master/functions.php
     //wp_register_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js', false, null);
     //wp_enqueue_script('royalslider-min-js');
-    wp_enqueue_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js');
+    //wp_enqueue_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js');
+
+    wp_register_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js', 'jquery');
+    wp_enqueue_script('royalslider-min-js');
 
 
 }
