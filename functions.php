@@ -27,13 +27,8 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 
-    //https://github.com/UCF/UCF-Libraries-Theme/blob/master/functions.php
-    //wp_register_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js', false, null);
-
     wp_register_script('royalslider-min-js', get_stylesheet_directory_uri() . '/royalslider/jquery.royalslider.min.js', 'jquery', '9.5.4', false);
     wp_enqueue_script('royalslider-min-js');
     wp_enqueue_script('royalslider', get_stylesheet_directory_uri() . '/royalslider/royalslider.js');
-
-
 }
 ?>
