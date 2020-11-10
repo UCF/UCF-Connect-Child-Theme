@@ -16,29 +16,24 @@ function my_theme_enqueue_styles() {
     );
 
     wp_enqueue_style( 'royalslider-custom',
-        get_stylesheet_directory_uri() . '/css/royalslider/royalslider.css?'.rand(111,9999),
+        get_stylesheet_directory_uri() . '/royalslider/royalslider.css?'.rand(111,9999),
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
 
     wp_enqueue_style( 'royalslider-default',
-        get_stylesheet_directory_uri() . '/css/royalslider/skins/default/rs-default.css?'.rand(111,9999),
+        get_stylesheet_directory_uri() . '/royalslider/skins/default/rs-default.css?'.rand(111,9999),
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
 
     //https://github.com/UCF/UCF-Libraries-Theme/blob/master/functions.php
     //wp_register_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js', false, null);
-    
-    //wp_enqueue_script('royalslider-min-js');
-    //wp_enqueue_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js');
 
-    //wp_register_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js', 'jquery');
-    //wp_enqueue_script('royalslider-min-js');
     wp_register_script('royalslider-min-js', get_stylesheet_directory_uri() . '/royalslider/jquery.royalslider.min.js', 'jquery', '9.5.4', false);
     wp_enqueue_script('royalslider-min-js');
-    //wp_enqueue_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js', 'jquery', '9.5.4', false);
-    wp_enqueue_script('testoutput', get_stylesheet_directory_uri() . '/css/royalslider/test-this-file.js');
+    wp_enqueue_script('royalslider', get_stylesheet_directory_uri() . '/royalslider/royalslider.js');
+
 
 }
 ?>
