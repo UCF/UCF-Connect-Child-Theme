@@ -3,7 +3,6 @@
 define( 'UCN_THEME_DIR', trailingslashit( get_stylesheet_directory() ) );
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
-//add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_scripts' );
 function my_theme_enqueue_styles() {
  
     $parent_style = 'Colleges-Theme-style';
@@ -33,8 +32,9 @@ function my_theme_enqueue_styles() {
     //wp_enqueue_script('royalslider-min-js');
     //wp_enqueue_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js');
 
-    wp_register_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js', 'jquery');
-    wp_enqueue_script('royalslider-min-js');
+    //wp_register_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js', 'jquery');
+    //wp_enqueue_script('royalslider-min-js');
+    wp_enqueue_script('royalslider-min-js', get_template_directory_uri() . '/royalslider/jquery.royalslider.min.js', 'jquery');
     wp_enqueue_script('testoutput', get_template_directory_uri() . '/css/royalslider/test-this-file.js');
 
 }
