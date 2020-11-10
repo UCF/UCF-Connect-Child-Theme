@@ -1,4 +1,3 @@
-var test-this-file = 'this is a test';
-function() {
-	console.log(test-this-file);
+function testoutput() {
+	console.log('this is a test');
 }
