@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
 		// autoplay options go gere
 		enabled: true,
 		pauseOnHover: true,
-		delay:1000,
+		delay:5000,
 		
 	},
 
