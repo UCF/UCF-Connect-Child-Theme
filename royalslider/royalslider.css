@@ -2,10 +2,19 @@
 /* Core RS CSS file. 95% of time you shouldn't change anything here. */
 /* core files: https://gs1.uz/lib/royalslider*/
 .royalSlider {
+	/*
 	width: 600px;
 	height: 400px;
 	position: relative;
-	direction: ltr;
+	direction: ltr;*/
+	/*testing full width*/
+	position: absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:50px;
+	height: auto;
+	width:auto;
 }
 .royalSlider > * {
 	float: left;
