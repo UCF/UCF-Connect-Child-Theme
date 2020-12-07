@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
 	},
 
     autoScaleSlider: true, 
-    //autoScaleSliderWidth: 960,     
+    autoScaleSliderWidth: 960,     
     autoScaleSliderHeight: 850,
     autoHeight:false,
 
