@@ -31,6 +31,6 @@ jQuery(document).ready(function($) {
 
     /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
     //imgWidth: 640,
-    //imgHeight: 360
+    imgHeight: 960
   });
 });
