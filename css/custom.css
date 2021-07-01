@@ -1,6 +1,3 @@
-p:empty {
-  display: none;
-}
 .btn-outline-inverse.active:not(:disabled):not(.disabled), .btn-outline-inverse.focus:not(:disabled):not(.disabled), .btn-outline-inverse:active:not(:disabled):not(.disabled), .btn-outline-inverse:focus:not(:disabled):not(.disabled), .btn-outline-inverse:hover:not(:disabled):not(.disabled) {
     background-color: #fc0 !important;
     border-color: #fc0 !important;
